@@ -3,6 +3,8 @@ Mewpassant
 
 An Octopress theme called 'Mewpassant'
 
+DEMO: http://pagecho.github.io/
+
 With the following steps you can install this theme on your Octopress:
 
 ```
