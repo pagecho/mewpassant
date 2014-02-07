@@ -1,0 +1,17 @@
+---
+layout: page
+footer: false
+---
+
+<div id="archives" class="category">
+{% for post in site.categories[page.category] %}
+{% capture this_year %}{{ post.date | date: "%Y" }}{% endcapture %}
+{% unless year == this_year %}
+  {% assign year = this_year %}
+  <div class="al_year">{{ year }}</div>
+{% endunless %}
+<div class="archives-post clearfix">
+  {% include archive_post.html %}
+</div>
+{% endfor %}
+</div>
