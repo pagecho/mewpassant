@@ -287,12 +287,12 @@ textarea {
     padding-top:25px
 }
 #main {
-    padding-top:20px;
+    padding:32px 0 0;
     float:left;
     width:800px
 }
 .post {
-    padding:20px 0 25px
+    padding:10px 0 30px;
 }
 .post-title {
     margin:0;
@@ -316,6 +316,10 @@ textarea {
 	border-top: 1px solid #ddd;
 	float: left;
     margin-top:27px;
+    padding-top:.6em;
+}
+.post-footer .meta{
+    line-height:1.7em;
 }
 .comment-count {
     float:right;
@@ -376,7 +380,7 @@ textarea {
 .page-navigator {
     border-top:1px solid #ddd;
     list-style:none;
-    padding:25px 0;
+    padding:22px 0 15px;
     font-size:16px;
     position:relative;
 }
@@ -523,7 +527,7 @@ td.code {
 #archives h2 {
     float:left;
     font-weight:normal;
-    margin-bottom: 10px;
+    margin-bottom:0;
 }
 .al_year {
     padding:16px 0 0;
@@ -533,6 +537,7 @@ td.code {
 .al_meta {
     float:right;
     margin:11px 0;
+    text-align: right;
 }
 .archives-post {
     margin-left:100px;
@@ -606,7 +611,7 @@ td.code {
         font-size:22px
     }
     .page-navigator {
-        padding:15px 0 0
+        padding:15px 0 10px;
     }
     #footer {
         padding-top:10px

@@ -8,21 +8,21 @@ single: true
   <article class="post clearfix">
   {% include article.html %}
   <footer class="post-footer">
-    <p class="meta">
+    <div class="meta">
       {% include post/author.html %} and 
       File under {% include post/categories.html %}
-    </p>
+    </div>
     {% unless page.sharing == false %}
       {% include post/sharing.html %}
     {% endunless %}
-    <p class="meta">
+    <div class="meta">
       {% if page.previous.url %}
         <a class="basic-alignment left" href="{{page.previous.url}}" title="Previous Post: {{page.previous.title}}">&laquo; {{page.previous.title}}</a>
       {% endif %}
       {% if page.next.url %}
         <a class="basic-alignment right" href="{{page.next.url}}" title="Next Post: {{page.next.title}}">{{page.next.title}} &raquo;</a>
       {% endif %}
-    </p>
+    </div>
   </footer>
 </article>
 {% if site.disqus_short_name and page.comments == true %}
