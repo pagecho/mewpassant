@@ -1,9 +1,10 @@
 Mewpassant
 ==========
 
+An Octopress theme called 'Mewpassant'.
+
 ![template preview](https://ddydeg.by3302.livefilestore.com/y2p1ZgHER4eIFaEHhwaf96MvZH4_iLufEIDj7o8acDgI1GXFDtPI-eRAgvokFoR9irbz738gMmWc_N7yexG6uhB1Dcmelb0cXg8HexpiAdZ5HQ/m.png "Maupassant template preview")
 
-An Octopress theme called 'Mewpassant'.
 
 With the following steps you can install this theme on your Octopress:
 
@@ -19,6 +20,8 @@ DO REMEMBER to back up the current template before installing.
 
 ###Maupassant on different platform:
 
-+ Typecho：https://github.com/pickcho/maupassant/
++ Typecho：https://github.com/pagecho/maupassant/
++ Octopress：https://github.com/pagecho/mewpassant/
++ Farbox：https://github.com/pagecho/Maupassant-farbox/
 + Wordpress：https://github.com/iMuFeng/maupassant/
-+ Octopress：https://github.com/pickcho/mewpassant/
++ Ghost: https://github.com/LjxPrime/maupassant
